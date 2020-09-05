@@ -104,6 +104,7 @@ def blackjack():
     '''Função principal.'''
     num_jogadores = int(input('Informe o número de jogadores: '))
     
+    # Valida número de jogadores.
     while num_jogadores < 1:
         print('Precisamos de pelo menos um jogador!')
         num_jogadores = int(input('Informe o número de jogadores: '))    
@@ -122,6 +123,7 @@ def blackjack():
 
     num_baralhos = int(input('Informe o número de baralhos: '))
     
+    # Valida número de baralhos.
     while num_baralhos < 1:
         print('Precisamos de pelo menos um baralho!')
         num_baralhos = int(input('Informe o número de baralhos: '))    
